@@ -2,7 +2,7 @@
 
 #include "../../libs/dictionary.cpp"
 
-TEST_CASE("Testing Random Alphabet") // TODO: Fix this
+TEST_CASE("Testing Random Alphabet")
 {
   REQUIRE(randomAlphabet() != "abcdefghijklmnopqrstuvwxyz");
 }

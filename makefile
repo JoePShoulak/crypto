@@ -18,9 +18,9 @@ $(BINARY): crypto.o $(OBJS) $(STATICLIB)
 clean:
 	rm -f *.exe *.o
 	cd ciphers && rm -f *.exe *.o
-	cd ext &&  rm -f *.exe *.o
-	cd libs &&  rm -f *.exe *.o
-	cd parser &&  rm -f *.exe *.o
+	cd ext && rm -f *.exe *.o
+	cd libs && rm -f *.exe *.o
+	cd parser && rm -f *.exe *.o
 	
 	cd tests && make clean
 

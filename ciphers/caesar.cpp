@@ -1,4 +1,5 @@
 #include "caesar.h"
+#include "caesarCrackResult.h"
 #include "../libs/dictionary.h"
 #include "../libs/file.h"
 
